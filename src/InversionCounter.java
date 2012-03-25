@@ -45,13 +45,6 @@ public class InversionCounter {
 	}
 	
 	public static void main(String[] args) {
-//		int[] left = {1, 3, 5};
-//		int[] right = {2, 4, 6};
-//		int[] both = {1,3,5,2,4,6};
-//		int inversions = countSplitInversions(left, right);
-//		int inversions = countInversions(both);
-//		System.out.println(inversions);
-//		BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
 		try {
 			BufferedReader r = new BufferedReader(new InputStreamReader(new FileInputStream("IntegerArray.txt")));
 			int num_integers = 100000;
